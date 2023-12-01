@@ -1,0 +1,67 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial; 
+    ;
+}
+
+p{
+    line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.read-more-btn{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.MORE-INFORMATION-btn{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/*header*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+/*footer black background and 200px for the height*/
+footer{
+    background-color: black;
+    height: 150px;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
